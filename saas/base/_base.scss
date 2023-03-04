@@ -1,0 +1,52 @@
+body {
+    font-family: Roboto;
+    color: $primary-text-color;
+    background-color: white;
+   
+}
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    color: $accent-color;
+    text-decoration: none;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
+
+
+.container {
+    display: flex;
+    
+    
+
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container--flex {
+    flex-direction: column;
+    align-items: center;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+

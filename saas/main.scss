@@ -1,0 +1,16 @@
+@import './base/reset';
+@import './base/variables';
+@import './base/base';
+
+@import './base/normalize';
+@import './components/logo';
+@import './components/socials';
+@import './components/form';
+
+@import './layout/page-header';
+@import './layout/section-hero';
+@import './layout/section-features';
+@import './layout/section-work';
+@import './layout/section-team';
+@import './layout/section-clients';
+@import './layout/page-footer';
