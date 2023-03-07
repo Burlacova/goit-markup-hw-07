@@ -4,38 +4,43 @@ body {
     background-color: white;
    
 }
-.logo {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.1;
-    color: $accent-color;
-    text-decoration: none;
 
-    padding-top: 24px;
-    padding-bottom: 24px;
-
-}
 
 
 .container {
-    display: flex;
-    
-    
-
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 1200px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
 
+    @media screen and (min-width: 480px) {
+        width: 396px;
+        
+    }
+    @media screen and (min-width: 768px) {
+        width: 736px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1130px;
+        display: flex;
+    
+   }
+   
+    
+   }
+    
+
+ 
+.container--flex {
+    @media screen and (min-width: 1200px) {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
 }
 
-.container--flex {
-    flex-direction: column;
-    align-items: center;
-}
 
 .visually-hidden {
     position: absolute;
